@@ -1,0 +1,337 @@
+[2019-06-27 11:59:27.1070] - INFO - Backing up to /Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/.backups/2019-06-27 11.59.27.zip
+[2019-06-27 11:59:53.7280] - ERROR - Error: ENOENT: no such file or directory, scandir '/Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/code'
+[2019-06-27 11:59:53.7280] - ERROR -     at Object.readdirSync (fs.js:783:3)
+[2019-06-27 11:59:53.7280] - ERROR -     at scandir (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1205:16)
+[2019-06-27 11:59:53.7280] - ERROR -     at Project.getCodeFilesAndFolders (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1216:9)
+[2019-06-27 11:59:53.7280] - ERROR -     at Server.app.get (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:127:37)
+[2019-06-27 11:59:53.7280] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_mod)
+[2019-06-27 11:59:53.7280] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 11:59:53.7290] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 11:59:53.7290] - ERROR -     at exports.isAuthenticated (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:53:9)
+[2019-06-27 11:59:53.7290] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 11:59:53.7290] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 11:59:53.7290] - ERROR -     at Route.dispatch (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:112:3)
+[2019-06-27 11:59:53.7290] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 11:59:53.7290] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:281:22
+[2019-06-27 11:59:53.7290] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 11:59:53.7290] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 11:59:53.7290] - ERROR -     at compression (/Applications/Framer X.app/Contents/Resources/Server/node_modules/compression/index.js:220:5)
+[2019-06-27 11:59:53.7290] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 11:59:53.7290] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 11:59:53.7290] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 11:59:53.7290] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 11:59:53.7290] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 11:59:53.7290] - ERROR -     at exports.cors (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:45:5)
+[2019-06-27 11:59:53.7290] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 11:59:53.7290] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 11:59:53.7290] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 11:59:53.7290] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 11:59:53.7290] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 11:59:53.7290] - ERROR -     at logger (/Applications/Framer X.app/Contents/Resources/Server/node_modules/morgan/index.js:144:5)
+[2019-06-27 11:59:53.7290] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 11:59:53.7290] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 11:59:53.7300] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 11:59:53.7300] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 11:59:53.7300] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 11:59:53.7300] - ERROR -     at exports.nocache (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:12:5)
+[2019-06-27 11:59:53.7300] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 11:59:53.7300] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 11:59:53.7300] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 11:59:53.7300] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 11:59:53.7300] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 11:59:53.7300] - ERROR -     at expressInit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/init.js:40:5)
+[2019-06-27 11:59:53.7300] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 11:59:53.7300] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 11:59:53.7300] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 11:59:53.7300] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 11:59:53.7300] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 11:59:53.7300] - ERROR -     at query (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/query.js:45:5)
+[2019-06-27 11:59:53.7300] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 11:59:53.7300] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 11:59:53.7300] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 11:59:53.7300] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 11:59:53.7300] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 11:59:53.7300] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:174:3)
+[2019-06-27 11:59:53.7300] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/application.js:174:10)
+[2019-06-27 11:59:53.7300] - ERROR -     at Server.app (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/express.js:39:9)
+[2019-06-27 11:59:53.7300] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/engine.io/lib/server.js:471:22)
+[2019-06-27 11:59:53.7300] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/index.js:343:16)
+[2019-06-27 11:59:53.7300] - ERROR -     at Server.emit (events.js:182:13)
+[2019-06-27 11:59:53.7310] - ERROR -     at Server.EventEmitter.emit (domain.js:442:20)
+[2019-06-27 11:59:53.7310] - ERROR -     at parserOnIncoming (_http_server.js:652:12)
+[2019-06-27 11:59:53.7310] - ERROR -     at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+[2019-06-27 12:00:23.7400] - ERROR - Error: ENOENT: no such file or directory, scandir '/Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/code'
+[2019-06-27 12:00:23.7400] - ERROR -     at Object.readdirSync (fs.js:783:3)
+[2019-06-27 12:00:23.7400] - ERROR -     at scandir (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1205:16)
+[2019-06-27 12:00:23.7400] - ERROR -     at Project.getCodeFilesAndFolders (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1216:9)
+[2019-06-27 12:00:23.7400] - ERROR -     at Server.app.get (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:127:37)
+[2019-06-27 12:00:23.7400] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:23.7410] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 12:00:23.7410] - ERROR -     at exports.isAuthenticated (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:53:9)
+[2019-06-27 12:00:23.7410] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:23.7410] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 12:00:23.7410] - ERROR -     at Route.dispatch (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:112:3)
+[2019-06-27 12:00:23.7410] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:23.7410] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:281:22
+[2019-06-27 12:00:23.7410] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:23.7410] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:23.7410] - ERROR -     at compression (/Applications/Framer X.app/Contents/Resources/Server/node_modules/compression/index.js:220:5)
+[2019-06-27 12:00:23.7410] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:23.7410] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:23.7410] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:23.7410] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:23.7410] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:23.7410] - ERROR -     at exports.cors (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:45:5)
+[2019-06-27 12:00:23.7410] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:23.7410] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:23.7410] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:23.7410] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:23.7410] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:23.7410] - ERROR -     at logger (/Applications/Framer X.app/Contents/Resources/Server/node_modules/morgan/index.js:144:5)
+[2019-06-27 12:00:23.7410] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:23.7420] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:23.7420] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:23.7420] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:23.7420] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:23.7420] - ERROR -     at exports.nocache (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:12:5)
+[2019-06-27 12:00:23.7420] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:23.7420] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:23.7420] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:23.7420] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:23.7420] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:23.7420] - ERROR -     at expressInit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/init.js:40:5)
+[2019-06-27 12:00:23.7420] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:23.7420] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:23.7420] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:23.7420] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:23.7420] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:23.7420] - ERROR -     at query (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/query.js:45:5)
+[2019-06-27 12:00:23.7420] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:23.7420] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:23.7420] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:23.7420] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:23.7420] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:23.7420] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:174:3)
+[2019-06-27 12:00:23.7420] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/application.js:174:10)
+[2019-06-27 12:00:23.7420] - ERROR -     at Server.app (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/express.js:39:9)
+[2019-06-27 12:00:23.7430] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/engine.io/lib/server.js:471:22)
+[2019-06-27 12:00:23.7430] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/index.js:343:16)
+[2019-06-27 12:00:23.7430] - ERROR -     at Server.emit (events.js:182:13)
+[2019-06-27 12:00:23.7430] - ERROR -     at Server.EventEmitter.emit (domain.js:442:20)
+[2019-06-27 12:00:23.7430] - ERROR -     at parserOnIncoming (_http_server.js:652:12)
+[2019-06-27 12:00:23.7430] - ERROR -     at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+[2019-06-27 12:00:28.1170] - INFO - Backing up to /Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/.backups/2019-06-27 12.00.28.zip
+[2019-06-27 12:00:53.7240] - ERROR - Error: ENOENT: no such file or directory, scandir '/Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/code'
+[2019-06-27 12:00:53.7240] - ERROR -     at Object.readdirSync (fs.js:783:3)
+[2019-06-27 12:00:53.7240] - ERROR -     at scandir (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1205:16)
+[2019-06-27 12:00:53.7250] - ERROR -     at Project.getCodeFilesAndFolders (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1216:9)
+[2019-06-27 12:00:53.7250] - ERROR -     at Server.app.get (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:127:37)
+[2019-06-27 12:00:53.7250] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:53.7250] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 12:00:53.7250] - ERROR -     at exports.isAuthenticated (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:53:9)
+[2019-06-27 12:00:53.7250] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:53.7250] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 12:00:53.7250] - ERROR -     at Route.dispatch (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:112:3)
+[2019-06-27 12:00:53.7250] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:53.7250] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:281:22
+[2019-06-27 12:00:53.7250] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:53.7250] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:53.7250] - ERROR -     at compression (/Applications/Framer X.app/Contents/Resources/Server/node_modules/compression/index.js:220:5)
+[2019-06-27 12:00:53.7250] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:53.7250] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:53.7250] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:53.7250] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:53.7250] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:53.7250] - ERROR -     at exports.cors (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:45:5)
+[2019-06-27 12:00:53.7250] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:53.7250] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:53.7250] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:53.7250] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:53.7250] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:53.7250] - ERROR -     at logger (/Applications/Framer X.app/Contents/Resources/Server/node_modules/morgan/index.js:144:5)
+[2019-06-27 12:00:53.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:53.7260] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:53.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:53.7260] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:53.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:53.7260] - ERROR -     at exports.nocache (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:12:5)
+[2019-06-27 12:00:53.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:53.7260] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:53.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:53.7260] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:53.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:53.7260] - ERROR -     at expressInit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/init.js:40:5)
+[2019-06-27 12:00:53.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:53.7260] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:53.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:53.7260] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:53.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:53.7260] - ERROR -     at query (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/query.js:45:5)
+[2019-06-27 12:00:53.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:00:53.7260] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:00:53.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:00:53.7270] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:00:53.7270] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:00:53.7270] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:174:3)
+[2019-06-27 12:00:53.7270] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/application.js:174:10)
+[2019-06-27 12:00:53.7270] - ERROR -     at Server.app (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/express.js:39:9)
+[2019-06-27 12:00:53.7270] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/engine.io/lib/server.js:471:22)
+[2019-06-27 12:00:53.7270] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/index.js:343:16)
+[2019-06-27 12:00:53.7270] - ERROR -     at Server.emit (events.js:182:13)
+[2019-06-27 12:00:53.7270] - ERROR -     at Server.EventEmitter.emit (domain.js:442:20)
+[2019-06-27 12:00:53.7270] - ERROR -     at parserOnIncoming (_http_server.js:652:12)
+[2019-06-27 12:00:53.7270] - ERROR -     at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+[2019-06-27 12:01:12.8670] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2019-06-27 12:01:12.8670] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-06-27 12:01:12.8680] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-06-27 12:01:12.8790] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-06-27 12:01:12.8790] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-06-27 12:01:12.8810] - INFO - Saving to /Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/RadialGradient/Radial_gradients.framerfx (origin)
+[2019-06-27 12:01:12.8970] - INFO - Done saving
+[2019-06-27 12:01:12.8970] - INFO - Marking changed: false
+[2019-06-27 12:01:12.9020] - DEBUG - [Save session: 0] Completed super.save
+[2019-06-27 12:01:23.7250] - ERROR - Error: ENOENT: no such file or directory, scandir '/Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/code'
+[2019-06-27 12:01:23.7250] - ERROR -     at Object.readdirSync (fs.js:783:3)
+[2019-06-27 12:01:23.7250] - ERROR -     at scandir (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1205:16)
+[2019-06-27 12:01:23.7250] - ERROR -     at Project.getCodeFilesAndFolders (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1216:9)
+[2019-06-27 12:01:23.7250] - ERROR -     at Server.app.get (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:127:37)
+[2019-06-27 12:01:23.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:23.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 12:01:23.7260] - ERROR -     at exports.isAuthenticated (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:53:9)
+[2019-06-27 12:01:23.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:23.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 12:01:23.7260] - ERROR -     at Route.dispatch (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:112:3)
+[2019-06-27 12:01:23.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:23.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:281:22
+[2019-06-27 12:01:23.7260] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:23.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:23.7260] - ERROR -     at compression (/Applications/Framer X.app/Contents/Resources/Server/node_modules/compression/index.js:220:5)
+[2019-06-27 12:01:23.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:23.7260] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:23.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:23.7260] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:23.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:23.7260] - ERROR -     at exports.cors (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:45:5)
+[2019-06-27 12:01:23.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:23.7260] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:23.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:23.7260] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:23.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:23.7260] - ERROR -     at logger (/Applications/Framer X.app/Contents/Resources/Server/node_modules/morgan/index.js:144:5)
+[2019-06-27 12:01:23.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:23.7260] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:23.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:23.7260] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:23.7270] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:23.7270] - ERROR -     at exports.nocache (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:12:5)
+[2019-06-27 12:01:23.7270] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:23.7270] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:23.7270] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:23.7270] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:23.7270] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:23.7270] - ERROR -     at expressInit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/init.js:40:5)
+[2019-06-27 12:01:23.7270] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:23.7270] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:23.7270] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:23.7270] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:23.7270] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:23.7270] - ERROR -     at query (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/query.js:45:5)
+[2019-06-27 12:01:23.7270] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:23.7270] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:23.7270] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:23.7270] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:23.7270] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:23.7270] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:174:3)
+[2019-06-27 12:01:23.7270] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/application.js:174:10)
+[2019-06-27 12:01:23.7270] - ERROR -     at Server.app (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/express.js:39:9)
+[2019-06-27 12:01:23.7270] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/engine.io/lib/server.js:471:22)
+[2019-06-27 12:01:23.7270] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/index.js:343:16)
+[2019-06-27 12:01:23.7270] - ERROR -     at Server.emit (events.js:182:13)
+[2019-06-27 12:01:23.7270] - ERROR -     at Server.EventEmitter.emit (domain.js:442:20)
+[2019-06-27 12:01:23.7270] - ERROR -     at parserOnIncoming (_http_server.js:652:12)
+[2019-06-27 12:01:23.7280] - ERROR -     at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+[2019-06-27 12:01:29.1000] - INFO - Backing up to /Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/.backups/2019-06-27 12.01.29.zip
+[2019-06-27 12:01:53.7260] - ERROR - Error: ENOENT: no such file or directory, scandir '/Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/code'
+[2019-06-27 12:01:53.7260] - ERROR -     at Object.readdirSync (fs.js:783:3)
+[2019-06-27 12:01:53.7260] - ERROR -     at scandir (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1205:16)
+[2019-06-27 12:01:53.7260] - ERROR -     at Project.getCodeFilesAndFolders (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1216:9)
+[2019-06-27 12:01:53.7260] - ERROR -     at Server.app.get (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:127:37)
+[2019-06-27 12:01:53.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:53.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 12:01:53.7260] - ERROR -     at exports.isAuthenticated (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:53:9)
+[2019-06-27 12:01:53.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:53.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2019-06-27 12:01:53.7260] - ERROR -     at Route.dispatch (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:112:3)
+[2019-06-27 12:01:53.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:53.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:281:22
+[2019-06-27 12:01:53.7260] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:53.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:53.7260] - ERROR -     at compression (/Applications/Framer X.app/Contents/Resources/Server/node_modules/compression/index.js:220:5)
+[2019-06-27 12:01:53.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:53.7260] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:53.7260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:53.7260] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:53.7260] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:53.7260] - ERROR -     at exports.cors (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:45:5)
+[2019-06-27 12:01:53.7260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:53.7260] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:53.7270] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:53.7270] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:53.7270] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:53.7270] - ERROR -     at logger (/Applications/Framer X.app/Contents/Resources/Server/node_modules/morgan/index.js:144:5)
+[2019-06-27 12:01:53.7270] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:53.7270] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:53.7270] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:53.7270] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:53.7270] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:53.7270] - ERROR -     at exports.nocache (/Applications/Framer X.app/Contents/Resources/Server/lib/middleware.js:12:5)
+[2019-06-27 12:01:53.7270] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:53.7270] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:53.7270] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:53.7270] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:53.7270] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:53.7270] - ERROR -     at expressInit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/init.js:40:5)
+[2019-06-27 12:01:53.7270] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:53.7270] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:53.7270] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:53.7270] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:53.7270] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:53.7270] - ERROR -     at query (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/middleware/query.js:45:5)
+[2019-06-27 12:01:53.7280] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2019-06-27 12:01:53.7280] - ERROR -     at trim_prefix (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:317:13)
+[2019-06-27 12:01:53.7280] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:284:7
+[2019-06-27 12:01:53.7280] - ERROR -     at Function.process_params (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:335:12)
+[2019-06-27 12:01:53.7280] - ERROR -     at next (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:275:10)
+[2019-06-27 12:01:53.7280] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/router/index.js:174:3)
+[2019-06-27 12:01:53.7280] - ERROR -     at Function.handle (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/application.js:174:10)
+[2019-06-27 12:01:53.7280] - ERROR -     at Server.app (/Applications/Framer X.app/Contents/Resources/Server/node_modules/express/lib/express.js:39:9)
+[2019-06-27 12:01:53.7280] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/engine.io/lib/server.js:471:22)
+[2019-06-27 12:01:53.7280] - ERROR -     at Server.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/index.js:343:16)
+[2019-06-27 12:01:53.7280] - ERROR -     at Server.emit (events.js:182:13)
+[2019-06-27 12:01:53.7280] - ERROR -     at Server.EventEmitter.emit (domain.js:442:20)
+[2019-06-27 12:01:53.7280] - ERROR -     at parserOnIncoming (_http_server.js:652:12)
+[2019-06-27 12:01:53.7280] - ERROR -     at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+[2019-06-27 12:02:05.5560] - DEBUG - [Save session: 1] Started, operation: saveOperation
+[2019-06-27 12:02:05.5560] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-06-27 12:02:05.5580] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-06-27 12:02:05.5580] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-06-27 12:02:05.5580] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-06-27 12:02:05.5590] - INFO - Saving to /Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/RadialGradient/Radial_gradients.framerfx (origin)
+[2019-06-27 12:02:05.5630] - INFO - Done saving
+[2019-06-27 12:02:05.5640] - INFO - Marking changed: false
+[2019-06-27 12:02:05.5670] - DEBUG - [Save session: 1] Completed super.save
+
+[2019-06-27 12:02:15.6670] - INFO - Reading from /Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx (origin); preserving existing contents of project folder: true
+[2019-06-27 12:02:15.6680] - INFO - Done reading
+[2019-06-27 12:02:15.6680] - INFO - Marking changed: false
+[2019-06-27 12:02:15.8350] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-06-27 12:02:16.9410] - ERROR - Unhandled Rejection at: Promise Promise {
+[2019-06-27 12:02:16.9410] - ERROR -   <rejected> Error: Error updating package.json Error: ENOENT: no such file or directory, open '/Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/package.json'
+[2019-06-27 12:02:16.9410] - ERROR -       at Project.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1148:23)
+[2019-06-27 12:02:16.9410] - ERROR -       at Generator.throw (<anonymous>)
+[2019-06-27 12:02:16.9410] - ERROR -       at rejected (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:5:65) } reason: Error: Error updating package.json Error: ENOENT: no such file or directory, open '/Users/dzmitry_vanitski/Dropbox (EPAM DSED Team)/FramerBY community/Radial_grads/Radial_gradients.framerfx/package.json'
+[2019-06-27 12:02:16.9410] - ERROR -     at Project.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1148:23)
+[2019-06-27 12:02:16.9410] - ERROR -     at Generator.throw (<anonymous>)
+[2019-06-27 12:02:16.9410] - ERROR -     at rejected (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:5:65)
+[2019-06-27 12:02:17.0130] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (4ms)
+[2019-06-27 12:02:17.0580] - INFO - GET 200 /design/document.json 0 B (3ms)
